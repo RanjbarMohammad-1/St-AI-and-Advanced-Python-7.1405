@@ -2,17 +2,17 @@
 import numpy as np
 
 def main():
-    print ("hi python")
+    # print ("hi python")
 
 
-    # ====================1===========================
-    L=[[0,1],[2,3]]
-    A=np.array(L)
+    # # ====================1===========================
+    # L=[[0,1],[2,3]]
+    # A=np.array(L)
 
-    print("list L:",L)
-    print("type(L) : ",type(L))
-    print ("Array A:\n",A)
-    print("type(A) : ",type(A))
+    # print("list L:",L)
+    # print("type(L) : ",type(L))
+    # print ("Array A:\n",A)
+    # print("type(A) : ",type(A))
 
     # print("id(L) : ",id(L)  )
     # print("id(L[1])-id(L[0]) = ",(id(L[1]))-(id(L[0])))
@@ -21,11 +21,11 @@ def main():
 
 
     # ====================2===========================
-    # A=np.array([1,2,3,4])
-    # print(" A.dtype  : ", A.dtype)
-    # print("A.ndim: " , A.ndim)
-    # print("A.shape: ",A.shape)
-    # print("A.reshape((4,1)).shape = ",A.reshape((4,1)).shape)
+    A=np.array([1,2,3,4])
+    print(" A.dtype  : ", A.dtype)
+    print("A.ndim: " , A.ndim)
+    print("A.shape: ",A.shape)
+    print("A.reshape((4,1)).shape = ",A.reshape((4,1)).shape)
 
 
     # ====================3===========================
