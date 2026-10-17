@@ -3,6 +3,8 @@
 import matplotlib.pyplot as plt 
 def example1():
 
+    fig = plt.figure()
+    fig.canvas.manager.set_window_title("AI class")
     # x axis values 
     x = [1,2,3] 
     # corresponding y axis values 

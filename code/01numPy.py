@@ -21,11 +21,11 @@ def main():
 
 
     # ====================2===========================
-    A=np.array([1,2,3,4])
-    print(" A.dtype  : ", A.dtype)
-    print("A.ndim: " , A.ndim)
-    print("A.shape: ",A.shape)
-    print("A.reshape((4,1)).shape = ",A.reshape((4,1)).shape)
+    # A=np.array([1,2,3,4])
+    # print(" A.dtype  : ", A.dtype)
+    # print("A.ndim: " , A.ndim)
+    # print("A.shape: ",A.shape)
+    # print("A.reshape((4,1)).shape = ",A.reshape((4,1)).shape)
 
 
     # ====================3===========================
@@ -43,9 +43,9 @@ def main():
     # O=np.ones((5,10))
     # print("O : ")
     # print (O)
-    # I=np.identity(3)
-    # print("I : ")
-    # print(I)
+    I=np.identity(50)
+    print("I : ")
+    print(I)
     # print("Z.dtype : ",Z.dtype)
 
     # ====================4===========================
